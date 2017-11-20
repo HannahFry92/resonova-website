@@ -117,7 +117,7 @@ h6 {
   z-index: -100;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: url(.../img/NYC-loop.mp4) no-repeat;
+  background: url(https://youtu.be/3yzCeVbp0ns) no-repeat;
   background-size: cover;
 }
 
@@ -1070,6 +1070,24 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 790px;
 }
 
+#contact .social {
+  text-align: center;
+}
+
+#contact .social i {
+  font-size: 40px;
+  color: #3E9C50;
+  line-height: 24px;
+  cursor: pointer;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#contact .social i:hover {
+  background: none;
+  color: #b3b3b3;
+}
+
 #contact .info {
   color: #333333;
 }
@@ -1135,6 +1153,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .form button[type="submit"]:hover {
   background: #4874C2;
+}
+
+@media (max-width: 768px) {
+  #contact {
+    padding-bottom: 850px;
+  }
 }
 
 
