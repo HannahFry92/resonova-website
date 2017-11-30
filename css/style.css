@@ -117,7 +117,7 @@ h6 {
   z-index: -100;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: url(.../img/NYC-loop3.mp4) no-repeat;
+  background: url(.../img/blockchain-world.jpg) no-repeat;
   background-size: cover;
 }
 
@@ -915,27 +915,27 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 870px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   #team {
-    padding-bottom: 1300px;
+    padding-bottom: 1600px;
   }
 }
 
 @media (max-width: 426px) {
   #team {
-    padding-bottom: 2400px;
+    padding-bottom: 2100px;
   }
 }
 
 @media (max-width: 376px) {
   #team {
-    padding-bottom: 2200px;
+    padding-bottom: 2100px;
   }
 }
 
 @media (max-width: 321px) {
   #team {
-    padding-bottom: 2000px;
+    padding-bottom: 2100px;
   }
 }
 
@@ -952,10 +952,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #team .member .pic img {
-  max-width: 100%;
+  max-width: 200px;
+  width: 100%;
+  max-height: 200px;
   height: auto;
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
+  position: relative;
+  top: 0; bottom:0; left: 0; right:0;
+  margin: auto;
 }
 
 #team .member h4 {
@@ -986,6 +991,64 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0 2px;
 }
 
+/* Network Section
+--------------------------------*/
+
+#network {
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/plexus.png") fixed center center;
+  background-size: cover;
+  padding: 0 0;
+  height: 150px;
+}
+
+@media (max-width: 768px) {
+  #network {
+    padding-bottom: 250px;
+  }
+}
+
+@media (max-width: 321px) {
+  #network {
+    padding-bottom: 350px;
+  }
+}
+
+#network .network-title {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#network .network-text {
+  color: #fff;
+  font-size: 16px;
+}
+
+#network .network-btn-container {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#network .network-btn {
+  font-family: 'Ubuntu', sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+  background: #3E9C50;
+  border: 2px solid #3E9C50;
+  color: #fff;
+}
+
+#network .network-btn:hover {
+  background: rgba(0, 0, 0, 0);
+  border: 2px solid #fff;
+}
 
 /* Slider */
 
@@ -999,6 +1062,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 100%;
   max-height: 150px;
   float: center;
+  position: relative;
+  top: 0; bottom:0; left: 0; right:0;
+  margin: auto;
 }
 
 .slick-slider {
@@ -1014,7 +1080,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   -ms-touch-action: pan-y;
   touch-action: pan-y;
   -webkit-tap-highlight-color: transparent;
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/plexus.png") fixed center center;
+  background: none;
   background-size: cover;
 }
 
@@ -1113,7 +1179,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact {
   background: #f7f7f7;
   padding: 80px 0;
-  height: 790px;
+  height: 700px;
 }
 
 #contact .social {
