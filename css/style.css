@@ -1057,12 +1057,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .slick-slide {
   margin: 0px 0px;
+  padding: 80px;
+  height: 350;
 }
 
 .slick-slide img {
   width: 100%;
   max-width: 150px;
-  height: 100%;
+  height: 80%;
   max-height: 150px;
   float: center;
   position: relative;
@@ -1181,7 +1183,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact {
   background: #f7f7f7;
-  margin: 80px 0;
   padding: 80px 0;
   height: 700px;
 }
