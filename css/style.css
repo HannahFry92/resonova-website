@@ -5,6 +5,7 @@
   Author URL: https://bootstrapmade.com
 */
 
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -580,7 +581,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-family: 'Ubuntu', sans-serif;
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 8px 20px;
@@ -683,19 +684,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 426px) {
   #services {
-    padding-bottom: 1150px;
+    padding-bottom: 1180px;
   }
 }
 
 @media (max-width: 376px) {
   #services {
-    padding-bottom: 1200px;
+    padding-bottom: 1260px;
   }
 }
 
 @media (max-width: 321px) {
   #services {
-    padding-bottom: 1250px;
+    padding-bottom: 1450px;
   }
 }
 
@@ -916,25 +917,25 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 769px) {
   #team {
-    padding-bottom: 1600px;
+    padding-bottom: 2070px;
   }
 }
 
 @media (max-width: 426px) {
   #team {
-    padding-bottom: 2100px;
+    padding-bottom: 2050px;
   }
 }
 
 @media (max-width: 376px) {
   #team {
-    padding-bottom: 2100px;
+    padding-bottom: 2050px;
   }
 }
 
 @media (max-width: 321px) {
   #team {
-    padding-bottom: 2100px;
+    padding-bottom: 2050px;
   }
 }
 
@@ -997,18 +998,18 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/plexus.png") fixed center center;
   background-size: cover;
   padding: 80px 0;
-  height: 150px;
+  height: 500px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   #network {
-    padding-bottom: 250px;
+    height: 450px;
   }
 }
 
 @media (max-width: 321px) {
   #network {
-    padding-bottom: 350px;
+    height: 450px;
   }
 }
 
@@ -1053,14 +1054,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .slick-slide {
   margin: 0px 0px;
-  padding: 80px;
-  height: 350;
 }
 
 .slick-slide img {
   width: 100%;
   max-width: 150px;
-  height: 80%;
+  height: 100%;
   max-height: 150px;
   float: center;
   position: relative;
