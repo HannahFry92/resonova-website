@@ -678,7 +678,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (max-width: 768px) {
   #services {
     padding-top: 50px;
-    padding-bottom: 1050px;
+    padding-bottom: 1150px;
   }
 }
 
@@ -912,30 +912,30 @@ body.mobile-nav-active #mobile-nav-toggle {
 #team {
   background: #fff;
   padding: 80px 0;
-  height: 870px;
+  height: 1170px;
 }
 
 @media (max-width: 769px) {
   #team {
-    padding-bottom: 2070px;
+    padding-bottom: 2360px;
   }
 }
 
 @media (max-width: 426px) {
   #team {
-    padding-bottom: 2050px;
+    padding-bottom: 2350px;
   }
 }
 
 @media (max-width: 376px) {
   #team {
-    padding-bottom: 2050px;
+    padding-bottom: 2350px;
   }
 }
 
 @media (max-width: 321px) {
   #team {
-    padding-bottom: 2050px;
+    padding-bottom: 2350px;
   }
 }
 
